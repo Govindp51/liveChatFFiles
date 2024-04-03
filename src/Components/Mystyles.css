@@ -60,16 +60,17 @@ border-bottom-left-radius: 20px;
 }
 .conversation-container{
     display: grid;
-    grid-template-columns: 32px auto auto;
+    grid-template-columns: 35px auto auto;
     grid-template-rows: 30px 48px auto auto;
     column-gap: 10px;
     padding: 5px;
     margin: 3px;
-    border-radius: 20px;
+    border-radius: 80px 3px 3px 80px;
     transition-duration: 0.4s;
 }
 .conversation-container:hover{
     background-color: whitesmoke;
+    color:black;
 }
 .conversation-container:active{
     background-color: white;
@@ -160,10 +161,10 @@ input[type="text"]{
     background-color: inherit;
     width: 88%;
 }
-/* input[type="text"]:hover{
+input[type="text"]:hover{
     background-color: lightgray;
     border-radius: 15px;
-} */
+}
 
 .Message-others-container{
     background-color: white;
@@ -171,8 +172,8 @@ input[type="text"]{
     margin: 5px;
     border-radius: 20px;
     width: max-content;
-    /* position: relative;
-    top:-10px; */
+    position: relative;
+    top:-10px;
     margin-top: 10px;
 }
 .Message-self-container{
