@@ -4,10 +4,8 @@ import SendIcon from "@mui/icons-material/Send";
 import MessageOthers from "./MessageOthers";
 import MessageSelf from "./MessageSelf";
 import React, { useState } from "react";
-// import { useSelector } from "react-redux";
 
 function ChatArea() {
-  // const lightTheme = useSelector((state) => state.themeKey);
   const [conversations, setConversations] = useState([
     {
       name: "Test#1",
